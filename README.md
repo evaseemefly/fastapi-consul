@@ -3,7 +3,7 @@ fastapi引入consul实现服务注册与发现
 
 本demo用来演示在 `fastapi` 中引入 `consul`实现服务注册与服务发现。
 
-![001](docs\imgs\001.png)
+![001](/docs/imgs/001.png)
 
 ```py
 |___consul_client.py
@@ -37,4 +37,4 @@ ConsulClient 参考自: [ConsulFlask](https://gitee.com/aichinai/consul_flask/bl
 
 ### consul的服务订阅大体原理:
 
-![consul服务订阅示意图](docs\imgs\002.png)
+![consul服务订阅示意图](/docs/imgs/002.png)
